@@ -160,3 +160,39 @@ function fuㅡ(num) {
     } else {
     } console.log("5보다 작다")
 }
+
+DOM???????????
+
+HTML === Document
+객체도 아닌데 왜 객체라고 하는거냐!!!!
+
+interface 이다 그럼 그게 뭔데
+시스템이 형태가 다른 경우가 있는데 그걸 연결해줌
+
+html 이랑 JS는 다른 거임
+html이라는 프로그램이란 언어인데 그걸 JS로 조작하고
+그거의 중간 다리가 interface이다 ===> DOM 조작이다(interface)
+
+DOM에는 무엇이 있는가?
+엄청나게 많다~~~~~~~~~
+
+
+
+const element = document.getElementById('divdiv');
+
+element textContext = "Hello World";
+console.log('eee');
+
+//1. 원하는 element를 찾는다
+//2. element를 조작해준다
+
+
+Event;
+//클릭을 했을 때 input에 text를 넣을 때 hover를 할 때 이런게 다 이벤트이다
+const elements = document.querySelector("button")
+// 이렇게 쿼리 샐렉터를 하면 그냥 css에서 바로 button을 넣어도 디자인 적용이 가능하다
+element.onclick = function () {
+    document.body.style.backgroundColor = "tan";
+    console.log("버튼이 눌렸어요");
+}
+// DOM을 조작, 이벤트를 다룸
