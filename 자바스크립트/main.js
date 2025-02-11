@@ -138,3 +138,25 @@ const df = !True;
 if(!df) {
     console.log("참입니다!")
 }
+
+
+// 조건문 & 함수 클린코드
+function fun(num) {
+    if (num>10){
+        console.log("10보다 큽니다")
+        return;
+    } else if (num > 5){
+        console.log("10보다 작고 5보다 크다")
+        return;
+    } console.log("5보다 작다")
+}
+
+//원래는 이런식으로 else를 써야 하는데 이렇게 else를 없애고 쓸수도 있다
+function fuㅡ(num) {
+    if (num>10){
+        console.log("10보다 큽니다")
+    } else if (num > 5){
+        console.log("10보다 작고 5보다 크다")
+    } else {
+    } console.log("5보다 작다")
+}
