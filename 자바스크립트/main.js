@@ -161,6 +161,8 @@ function fuㅡ(num) {
     } console.log("5보다 작다")
 }
 
+/*
+
 DOM???????????
 
 HTML === Document
@@ -176,7 +178,7 @@ html이라는 프로그램이란 언어인데 그걸 JS로 조작하고
 DOM에는 무엇이 있는가?
 엄청나게 많다~~~~~~~~~
 
-
+*/
 
 const element = document.getElementById('divdiv');
 
@@ -196,3 +198,7 @@ element.onclick = function () {
     console.log("버튼이 눌렸어요");
 }
 // DOM을 조작, 이벤트를 다룸
+
+
+doucument.body.appendChile(div);
+//이렇게 document파일만으로도 자바스크립트를 변경할 수 있다~
